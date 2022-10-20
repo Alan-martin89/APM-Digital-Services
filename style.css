@@ -38,7 +38,9 @@ body{
     color:white;
 }
 
-
+#name{
+    color: white;
+}
 
 h1{
     
@@ -73,9 +75,17 @@ p{
 
 #contact{
     margin-top: 2rem;
+    background-color:#660000;
+    border-style: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 a{
     text-decoration: none;
     color: #93CAED;
+}
+
+#title{
+    margin: 2rem;
 }
