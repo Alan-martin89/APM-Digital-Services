@@ -4,6 +4,8 @@
         width: 100px;
         border-radius: 30px;
     }
+
+   
 }
 @media screen and (max-width: 992px){
     img{
@@ -88,4 +90,11 @@ a{
 
 #title{
     margin: 2rem;
+}
+
+#facebook{
+    text-decoration: none;
+    color: #3b5998;
+    
+
 }
