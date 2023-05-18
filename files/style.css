@@ -1,0 +1,122 @@
+/*
+font-family: 'Forum', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+grey #5a5a5a
+red #660000
+green #258c5b
+light white #d9d9d9
+*/
+body{
+    margin: 0%;
+    background-color: #5a5a5a;
+    overflow-x: hidden;
+}
+h1,h2,h3{
+    font-size: 3rem;
+}
+.toplogo{
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:  25px 25px 50px #bebebe,
+                 -25px -25px 50px #ffffff;
+}
+.mainlogosize{
+    width: 10rem;
+    height: 10rem;
+}
+.mainstyle{
+    position: relative;
+    margin: 0.5rem;
+    padding-top: 10%;
+    border-radius: 0;
+background: #5a5a5a;
+box-shadow:  25px 25px 50px #515151,
+             -25px -25px 50px #636363;
+opacity: 90%;
+}
+nav{
+    background-color: #5a5a5a;
+    
+}
+.textdecunder{
+    text-decoration: underline #258c5b;
+}
+.textdecunderred{
+    text-decoration:  underline #660000 0.5rem;
+    
+    
+}
+.fontforum{
+    font-family: 'Forum', cursive;
+}
+.fontsource{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.fontcolorlightwhite{
+    color: #d9d9d9;
+}
+.intro{
+    font-size: 1.25rem;
+    padding: 3rem;
+}
+.portp{
+    font-size: 2rem;
+}
+.consultbutton{
+    border-radius: 1rem;
+background: linear-gradient(145deg, #217e52, #289661);
+box-shadow:  5px 5px 5px #1a613f,
+             5px 5px 5px #30b777;
+             text-align: center;
+             padding: 2rem;
+             color: #d9d9d9;
+             font-family: 'Source Sans Pro', sans-serif;
+             font-size: 2rem;
+                
+}
+.circle{
+    background-color: #660000;
+   width: 40rem;
+   height: 40rem;
+    border-radius: 50% ;
+    position: absolute;
+    top: 15rem;
+    left: 90px;
+    z-index: -1 ;
+    opacity: 50%;
+}
+.square{
+    background-color: #1a613f;
+    width: 40rem;
+    height: 40rem;
+    position: absolute;
+    z-index: -1 ;
+    opacity: 50%;
+    left: 10px;
+    bottom: 10rem;
+    rotate: 33deg;
+    border-radius: 5%, 2%, 4%, 10%;
+}
+.card{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.ulfontsize{
+    font-size: 1.5rem;
+    display: none;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    color: #660000;
+}
+@media (min-width: 768px) {
+    .intro{
+        font-size: 3rem;
+    }
+    .ulfontsize{
+        display: initial;
+    }
+}
